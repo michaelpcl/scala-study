@@ -22,6 +22,10 @@ object ScalaCollection {
     }
 
 
+
+
+
+
     /**
       * 列表操作
       */
@@ -30,7 +34,7 @@ object ScalaCollection {
     println("first method***********"+ site);
 
     //列表的定义2
-    var site2 = "aaa" :: ("bbb" :: ("ccc" :: Nil));
+    var site2 = "aaa" :: "bbb" :: "ccc" :: Nil;
     println("second method***********"+ site2);
 
     //列表定义3（不指定数据类型）
